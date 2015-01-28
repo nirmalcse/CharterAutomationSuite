@@ -2357,7 +2357,8 @@ public class BillPay extends Initialization{
 	
 	catch(Exception e)
 	{
-	      repfn.FnCom_ThrowException(e);                         
+	      repfn.FnCom_ThrowException(e);
+	      System.out.println(e);
 	}
 }
 //darshana ends
